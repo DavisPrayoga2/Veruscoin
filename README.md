@@ -1,0 +1,2 @@
+# Veruscoin
+Veruscoin 
