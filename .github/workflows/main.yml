@@ -13,12 +13,8 @@ flag: [A, B, C, D, E, F, G, H, I]
 timeout-minutes: 360
 env:
 NUM_JOBS: 20
-JOB: ${{ matrix.go }}
-steps:
-- name: Set up Go ${{ matrix.go }}
-uses: actions/setup-go@v1
-with:
-go-version: ${{ matrix.go }}
+
+
 - name: Setup
 uses: actions/checkout@v2
 - name: akuganteng
